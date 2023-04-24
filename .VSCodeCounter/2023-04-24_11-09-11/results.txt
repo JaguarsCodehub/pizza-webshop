@@ -1,0 +1,96 @@
+Date : 2023-04-24 11:09:11
+Directory : c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop
+Total : 49 files,  13482 codes, 23 comments, 340 blanks, all 13845 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          2 |     11,001 |          0 |          2 |     11,003 |
+| JavaScript JSX     |         13 |      1,288 |         12 |        118 |      1,418 |
+| CSS                |         14 |        799 |          2 |        145 |        946 |
+| JavaScript         |         16 |        362 |          9 |         59 |        430 |
+| Markdown           |          1 |         20 |          0 |         15 |         35 |
+| Properties         |          1 |          5 |          0 |          0 |          5 |
+| XML                |          1 |          4 |          0 |          0 |          4 |
+| JSON with Comments |          1 |          3 |          0 |          1 |          4 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                               | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                  |         49 |     13,482 |         23 |        340 |     13,845 |
+| . (Files)                                                                          |          8 |     11,064 |          1 |         21 |     11,086 |
+| components                                                                         |          9 |        703 |          8 |         81 |        792 |
+| models                                                                             |          2 |         63 |          0 |          6 |         69 |
+| pages                                                                              |         12 |        792 |          7 |         73 |        872 |
+| pages (Files)                                                                      |          3 |        233 |          4 |         16 |        253 |
+| pages\admin                                                                        |          2 |        177 |          0 |         16 |        193 |
+| pages\api                                                                          |          5 |        142 |          3 |         25 |        170 |
+| pages\api (Files)                                                                  |          1 |         23 |          0 |          3 |         26 |
+| pages\api\orders                                                                   |          2 |         53 |          0 |         10 |         63 |
+| pages\api\products                                                                 |          2 |         66 |          3 |         12 |         81 |
+| pages\orders                                                                       |          1 |        119 |          0 |          5 |        124 |
+| pages\product                                                                      |          1 |        121 |          0 |         11 |        132 |
+| public                                                                             |          1 |          4 |          0 |          0 |          4 |
+| redux                                                                              |          2 |         30 |          0 |          5 |         35 |
+| styles                                                                             |         14 |        799 |          2 |        145 |        946 |
+| util                                                                               |          1 |         27 |          5 |          9 |         41 |
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                           | language           | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\.env                          | Properties         |          5 |          0 |          0 |          5 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\.eslintrc.json                | JSON with Comments |          3 |          0 |          1 |          4 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\README.md                     | Markdown           |         20 |          0 |         15 |         35 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\Add.jsx            | JavaScript JSX     |        132 |          0 |         10 |        142 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\AddButton.jsx      | JavaScript JSX     |          9 |          0 |          3 |         12 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\Featured.jsx       | JavaScript JSX     |         48 |          0 |          5 |         53 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\Footer.jsx         | JavaScript JSX     |        271 |          0 |         30 |        301 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\Layout.js          | JavaScript         |         12 |          0 |          3 |         15 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\Navbar.jsx         | JavaScript JSX     |         41 |          1 |          3 |         45 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\OrderDetail.jsx    | JavaScript JSX     |         47 |          0 |          5 |         52 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\PizzaCard.jsx      | JavaScript JSX     |         66 |          2 |          8 |         76 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\PizzaList.jsx      | JavaScript JSX     |         77 |          5 |         14 |         96 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\models\Order.js               | JavaScript         |         29 |          0 |          3 |         32 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\models\Product.js             | JavaScript         |         34 |          0 |          3 |         37 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\next.config.js                | JavaScript         |         12 |          0 |          1 |         13 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\package-lock.json             | JSON               |     10,970 |          0 |          1 |     10,971 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\package.json                  | JSON               |         31 |          0 |          1 |         32 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\_app.js                 | JavaScript         |         14 |          0 |          3 |         17 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\admin\index.jsx         | JavaScript JSX     |        133 |          0 |         11 |        144 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\admin\login.jsx         | JavaScript JSX     |         44 |          0 |          5 |         49 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\api\login.js            | JavaScript         |         23 |          0 |          3 |         26 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\api\orders\[id].js      | JavaScript         |         30 |          0 |          5 |         35 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\api\orders\index.js     | JavaScript         |         23 |          0 |          5 |         28 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\api\products\[id].js    | JavaScript         |         43 |          0 |          6 |         49 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\api\products\index.js   | JavaScript         |         23 |          3 |          6 |         32 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\cart.jsx                | JavaScript JSX     |        180 |          4 |          8 |        192 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\index.js                | JavaScript         |         39 |          0 |          5 |         44 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\orders\[id].jsx         | JavaScript JSX     |        119 |          0 |          5 |        124 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\product\[id].jsx        | JavaScript JSX     |        121 |          0 |         11 |        132 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\postcss.config.js             | JavaScript         |          6 |          0 |          1 |          7 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\public\vercel.svg             | XML                |          4 |          0 |          0 |          4 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\redux\cartSlice.js            | JavaScript         |         23 |          0 |          3 |         26 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\redux\store.js                | JavaScript         |          7 |          0 |          2 |          9 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Add.module.css         | CSS                |         97 |          0 |         13 |        110 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Admin.module.css       | CSS                |         25 |          0 |          6 |         31 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Cart.module.css        | CSS                |        112 |          0 |         21 |        133 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Featured.module.css    | CSS                |         32 |          0 |          5 |         37 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Footer.module.css      | CSS                |         47 |          0 |         11 |         58 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Home.module.css        | CSS                |          0 |          0 |          1 |          1 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Login.module.css       | CSS                |         28 |          0 |          5 |         33 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Navbar.module.css      | CSS                |         79 |          1 |         14 |         94 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Order.module.css       | CSS                |        115 |          0 |         20 |        135 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\OrderDetail.module.css | CSS                |         47 |          0 |          7 |         54 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\PizzaCard.module.css   | CSS                |         36 |          1 |          7 |         44 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\PizzaList.module.css   | CSS                |         28 |          0 |          6 |         34 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Product.module.css     | CSS                |        146 |          0 |         26 |        172 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\globals.css            | CSS                |          7 |          0 |          3 |         10 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\tailwind.config.js            | JavaScript         |         17 |          1 |          1 |         19 |
+| c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\util\mongo.js                 | JavaScript         |         27 |          5 |          9 |         41 |
+| Total                                                                              |                    |     13,482 |         23 |        340 |     13,845 |
++------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

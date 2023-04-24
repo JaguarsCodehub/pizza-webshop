@@ -99,15 +99,15 @@
   }
 
   .price::before {
-    content: "Price: ";
+    content: 'Price: ';
     font-weight: 500;
   }
   .quantity::before {
-    content: "Quantity: ";
+    content: 'Quantity: ';
     font-weight: 500;
   }
   .total::before {
-    content: "Total: ";
+    content: 'Total: ';
     font-weight: 500;
   }
 

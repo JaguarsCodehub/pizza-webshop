@@ -1,30 +1,30 @@
-import styles from "../styles/Cart.module.css";
-import Image from "next/image";
-import { useDispatch, useSelector } from "react-redux";
-import { useEffect, useState } from "react";
+import styles from '../styles/Cart.module.css';
+import Image from 'next/image';
+import { useDispatch, useSelector } from 'react-redux';
+import { useEffect, useState } from 'react';
 import {
   PayPalScriptProvider,
   PayPalButtons,
   usePayPalScriptReducer,
-} from "@paypal/react-paypal-js";
-import axios from "axios";
-import { useRouter } from "next/router";
-import { reset } from "../redux/cartSlice";
-import OrderDetail from "../components/OrderDetail";
+} from '@paypal/react-paypal-js';
+import axios from 'axios';
+import { useRouter } from 'next/router';
+import { reset } from '../redux/cartSlice';
+import OrderDetail from '../components/OrderDetail';
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart);
   const [open, setOpen] = useState(false);
   const [cash, setCash] = useState(false);
   const amount = cart.total;
-  const currency = "USD";
-  const style = { layout: "vertical" };
+  const currency = 'USD';
+  const style = { layout: 'vertical' };
   const dispatch = useDispatch();
   const router = useRouter();
 
   const createOrder = async (data) => {
     try {
-      const res = await axios.post("http://localhost:3000/api/orders", data);
+      const res = await axios.post('http://localhost:3000/api/orders', data);
       if (res.status === 201) {
         dispatch(reset());
         router.push(`/orders/${res.data._id}`);
@@ -42,7 +42,7 @@ const Cart = () => {
 
     useEffect(() => {
       dispatch({
-        type: "resetOptions",
+        type: 'resetOptions',
         value: {
           ...options,
           currency: currency,
@@ -52,7 +52,7 @@ const Cart = () => {
 
     return (
       <>
-        {showSpinner && isPending && <div className="spinner" />}
+        {showSpinner && isPending && <div className='spinner' />}
         <PayPalButtons
           style={style}
           disabled={false}
@@ -112,9 +112,9 @@ const Cart = () => {
                   <div className={styles.imgContainer}>
                     <Image
                       src={product.img}
-                      layout="fill"
-                      objectFit="cover"
-                      alt=""
+                      layout='fill'
+                      objectFit='cover'
+                      alt=''
                     />
                   </div>
                 </td>
@@ -129,14 +129,14 @@ const Cart = () => {
                   </span>
                 </td>
                 <td>
-                  <span className={styles.price}>${product.price}</span>
+                  <span className={styles.price}>₹{product.price}</span>
                 </td>
                 <td>
                   <span className={styles.quantity}>{product.quantity}</span>
                 </td>
                 <td>
                   <span className={styles.total}>
-                    ${product.price * product.quantity}
+                    ₹{product.price * product.quantity}
                   </span>
                 </td>
               </tr>
@@ -148,13 +148,13 @@ const Cart = () => {
         <div className={styles.wrapper}>
           <h2 className={styles.title}>CART TOTAL</h2>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Subtotal:</b>${cart.total}
+            <b className={styles.totalTextTitle}>Subtotal:</b>₹{cart.total}
           </div>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Discount:</b>$0.00
+            <b className={styles.totalTextTitle}>Discount:</b>₹0.00
           </div>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Total:</b>${cart.total}
+            <b className={styles.totalTextTitle}>Total:</b>₹{cart.total}
           </div>
           {open ? (
             <div className={styles.paymentMethods}>
@@ -166,11 +166,11 @@ const Cart = () => {
               </button>
               <PayPalScriptProvider
                 options={{
-                  "client-id":
-                    "ATTL8fDJKfGzXNH4VVuDy1qW4_Jm8S0sqmnUTeYtWpqxUJLnXIn90V8YIGDg-SNPaB70Hg4mko_fde4-",
-                  components: "buttons",
-                  currency: "USD",
-                  "disable-funding": "credit,card,p24",
+                  'client-id':
+                    'AUvnoPoBMXs92oTmYKkrGVHNZfS5Lx69noHnPFSTucIObd-ybRLZBKALOv4mL9zNj_d1T_tfvCaCiPBG',
+                  components: 'buttons',
+                  currency: 'USD',
+                  'disable-funding': 'credit,card,p24',
                 }}
               >
                 <ButtonWrapper currency={currency} showSpinner={false} />

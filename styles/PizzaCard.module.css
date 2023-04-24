@@ -3,7 +3,7 @@
   padding: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: cen ter;
   justify-content: center;
   padding: 20px 40px;
   cursor: pointer;
@@ -11,18 +11,19 @@
 
 .title {
   font-size: 18px;
-  font-weight: bold;
-  color: #d1411e;
+  font-weight: 600;
+  color: #3f3f3f;
 }
 
 .price {
-  font-size: 18px;
-  font-weight: bold;
-  color: #666;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
 }
 
 .desc {
-  text-align: center;
+  /* text-align: center; */
+  margin-top: 20px;
   color: #777;
 }
 

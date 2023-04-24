@@ -1,9 +1,9 @@
-import { useState } from "react";
-import styles from "../styles/OrderDetail.module.css";
+import { useState } from 'react';
+import styles from '../styles/OrderDetail.module.css';
 
 const OrderDetail = ({ total, createOrder }) => {
-  const [customer, setCustomer] = useState("");
-  const [address, setAddress] = useState("");
+  const [customer, setCustomer] = useState('');
+  const [address, setAddress] = useState('');
 
   const handleClick = () => {
     createOrder({ customer, address, total, method: 0 });
@@ -16,8 +16,8 @@ const OrderDetail = ({ total, createOrder }) => {
         <div className={styles.item}>
           <label className={styles.label}>Name Surname</label>
           <input
-            placeholder="John Doe"
-            type="text"
+            placeholder='John Doe'
+            type='text'
             className={styles.input}
             onChange={(e) => setCustomer(e.target.value)}
           />
@@ -25,8 +25,8 @@ const OrderDetail = ({ total, createOrder }) => {
         <div className={styles.item}>
           <label className={styles.label}>Phone Number</label>
           <input
-            type="text"
-            placeholder="+1 234 567 89"
+            type='text'
+            placeholder='+1 234 567 89'
             className={styles.input}
           />
         </div>
@@ -34,8 +34,8 @@ const OrderDetail = ({ total, createOrder }) => {
           <label className={styles.label}>Address</label>
           <textarea
             rows={5}
-            placeholder="Elton St. 505 NY"
-            type="text"
+            placeholder='Elton St. 505 NY'
+            type='text'
             className={styles.textarea}
             onChange={(e) => setAddress(e.target.value)}
           />

@@ -1,0 +1,51 @@
+"filename", "language", "JSON with Comments", "JavaScript", "Markdown", "CSS", "JSON", "XML", "JavaScript JSX", "Properties", "comment", "blank", "total"
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\.env", "Properties", 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 5
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\.eslintrc.json", "JSON with Comments", 3, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\README.md", "Markdown", 0, 0, 20, 0, 0, 0, 0, 0, 0, 15, 35
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\Add.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 132, 0, 0, 10, 142
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\AddButton.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 9, 0, 0, 3, 12
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\Featured.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 48, 0, 0, 5, 53
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\Footer.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 271, 0, 0, 30, 301
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\Layout.js", "JavaScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 3, 15
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\Navbar.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 41, 0, 1, 3, 45
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\OrderDetail.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 47, 0, 0, 5, 52
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\PizzaCard.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 66, 0, 2, 8, 76
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\components\PizzaList.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 77, 0, 5, 14, 96
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\models\Order.js", "JavaScript", 0, 29, 0, 0, 0, 0, 0, 0, 0, 3, 32
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\models\Product.js", "JavaScript", 0, 34, 0, 0, 0, 0, 0, 0, 0, 3, 37
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\next.config.js", "JavaScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 1, 13
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\package-lock.json", "JSON", 0, 0, 0, 0, 10970, 0, 0, 0, 0, 1, 10971
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\package.json", "JSON", 0, 0, 0, 0, 31, 0, 0, 0, 0, 1, 32
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\_app.js", "JavaScript", 0, 14, 0, 0, 0, 0, 0, 0, 0, 3, 17
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\admin\index.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 133, 0, 0, 11, 144
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\admin\login.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 44, 0, 0, 5, 49
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\api\login.js", "JavaScript", 0, 23, 0, 0, 0, 0, 0, 0, 0, 3, 26
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\api\orders\[id].js", "JavaScript", 0, 30, 0, 0, 0, 0, 0, 0, 0, 5, 35
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\api\orders\index.js", "JavaScript", 0, 23, 0, 0, 0, 0, 0, 0, 0, 5, 28
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\api\products\[id].js", "JavaScript", 0, 43, 0, 0, 0, 0, 0, 0, 0, 6, 49
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\api\products\index.js", "JavaScript", 0, 23, 0, 0, 0, 0, 0, 0, 3, 6, 32
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\cart.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 180, 0, 4, 8, 192
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\index.js", "JavaScript", 0, 39, 0, 0, 0, 0, 0, 0, 0, 5, 44
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\orders\[id].jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 119, 0, 0, 5, 124
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\pages\product\[id].jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 121, 0, 0, 11, 132
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\postcss.config.js", "JavaScript", 0, 6, 0, 0, 0, 0, 0, 0, 0, 1, 7
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\public\vercel.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 4
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\redux\cartSlice.js", "JavaScript", 0, 23, 0, 0, 0, 0, 0, 0, 0, 3, 26
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\redux\store.js", "JavaScript", 0, 7, 0, 0, 0, 0, 0, 0, 0, 2, 9
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Add.module.css", "CSS", 0, 0, 0, 97, 0, 0, 0, 0, 0, 13, 110
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Admin.module.css", "CSS", 0, 0, 0, 25, 0, 0, 0, 0, 0, 6, 31
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Cart.module.css", "CSS", 0, 0, 0, 112, 0, 0, 0, 0, 0, 21, 133
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Featured.module.css", "CSS", 0, 0, 0, 32, 0, 0, 0, 0, 0, 5, 37
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Footer.module.css", "CSS", 0, 0, 0, 47, 0, 0, 0, 0, 0, 11, 58
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Home.module.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Login.module.css", "CSS", 0, 0, 0, 28, 0, 0, 0, 0, 0, 5, 33
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Navbar.module.css", "CSS", 0, 0, 0, 79, 0, 0, 0, 0, 1, 14, 94
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Order.module.css", "CSS", 0, 0, 0, 115, 0, 0, 0, 0, 0, 20, 135
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\OrderDetail.module.css", "CSS", 0, 0, 0, 47, 0, 0, 0, 0, 0, 7, 54
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\PizzaCard.module.css", "CSS", 0, 0, 0, 36, 0, 0, 0, 0, 1, 7, 44
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\PizzaList.module.css", "CSS", 0, 0, 0, 28, 0, 0, 0, 0, 0, 6, 34
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\Product.module.css", "CSS", 0, 0, 0, 146, 0, 0, 0, 0, 0, 26, 172
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\styles\globals.css", "CSS", 0, 0, 0, 7, 0, 0, 0, 0, 0, 3, 10
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\tailwind.config.js", "JavaScript", 0, 17, 0, 0, 0, 0, 0, 0, 1, 1, 19
+"c:\Users\Jyotindra\Desktop\My Projects\pizza-webshop\util\mongo.js", "JavaScript", 0, 27, 0, 0, 0, 0, 0, 0, 5, 9, 41
+"Total", "-", 3, 362, 20, 799, 11001, 4, 1288, 5, 23, 340, 13845

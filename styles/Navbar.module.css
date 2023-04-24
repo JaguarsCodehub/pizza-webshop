@@ -1,7 +1,7 @@
 .container {
   height: 100px;
   padding: 0px 50px;
-  background-color: #d1411e;
+  background-color: rgb(255, 80, 80);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,7 +34,7 @@
 
 .texts {
   margin-left: 20px;
-  color: white;
+  color: #262626;
 }
 
 .text:first-child {
@@ -52,7 +52,7 @@
   display: flex;
   align-items: center;
   list-style: none;
-  color: white;
+  color: #262626;
 }
 
 .listItem {
@@ -61,27 +61,28 @@
   cursor: pointer;
 }
 
-.cart{
-    position: relative;
+.cart {
+  position: relative;
+  /* background-color: black; */
 }
 
-.counter{
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: white;
-    padding: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    color: #d1411e;
+.counter {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #d1411e;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
   .item:nth-child(2) {
     display: none;
   }
